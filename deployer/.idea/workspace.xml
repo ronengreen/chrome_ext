@@ -14,7 +14,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/deployer@chrome_ext_deployer.coverage" NAME="chrome_ext_deployer Coverage Results" MODIFIED="1468673338421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="deployer" />
+    <SUITE FILE_PATH="coverage/deployer@chrome_ext_deployer.coverage" NAME="chrome_ext_deployer Coverage Results" MODIFIED="1468754637327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="deployer" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -25,7 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="chrome_ext_deployer.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chrome_ext_deployer.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chrome_ext_deployer.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
@@ -78,8 +78,8 @@
       <file leaf-file-name="wl_template.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/wl_template.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="841">
+              <caret line="12826" column="4" selection-start-line="12826" selection-start-column="4" selection-end-line="12826" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -95,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manifest_template.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="manifest_template.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/manifest_template.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
@@ -145,8 +145,8 @@
         <option value="$PROJECT_DIR$/conf.rb" />
         <option value="$PROJECT_DIR$/templates/background_template.js" />
         <option value="$PROJECT_DIR$/templates/content_template.js" />
-        <option value="$PROJECT_DIR$/templates/manifest_template.json" />
         <option value="$PROJECT_DIR$/chrome_ext_deployer.rb" />
+        <option value="$PROJECT_DIR$/templates/manifest_template.json" />
       </list>
     </option>
   </component>
@@ -389,12 +389,12 @@
       <workItem from="1467407073663" duration="77335000" />
       <workItem from="1468490721966" duration="547000" />
       <workItem from="1468491275042" duration="18959000" />
-      <workItem from="1468665796039" duration="7556000" />
+      <workItem from="1468665796039" duration="15124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129058000" />
+    <option name="totallyTimeSpent" value="136626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1608" height="864" extended-state="6" />
@@ -704,12 +704,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9792">
           <caret line="580" column="45" selection-start-line="580" selection-start-column="45" selection-end-line="580" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#span#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -717,14 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2244">
           <caret line="132" column="39" selection-start-line="132" selection-start-column="39" selection-end-line="132" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/wl_template.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -749,14 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1887">
           <caret line="111" column="27" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/manifest_template.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -789,6 +768,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/wl_template.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="12826" column="4" selection-start-line="12826" selection-start-column="4" selection-end-line="12826" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/manifest_template.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding />
         </state>
       </provider>

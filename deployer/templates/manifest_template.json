@@ -22,5 +22,5 @@
    "name": "RNG_EXT_NAME_RNG",
    "permissions": [ "notifications", "tabs", "bookmarks", "http://*/", "https://*/" ],
  
-   "version": "1.0.3.4"
+   "version": "1.0.3.7"
 }

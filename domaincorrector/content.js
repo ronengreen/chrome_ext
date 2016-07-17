@@ -90,7 +90,7 @@ var DomainCorrectorRedirect = function(){
 		});
 
 
-		var d = "https://domaincorrector.herokuapp.com";
+		var d = "http://domaincorrector.herokuapp.com";
 		top.location.href = d +"/searcher.html?#q=" + encodeURIComponent(valFromMap) + "&term=" + encodeURIComponent(QueryString.q)
 		+"&sus=" + DomainCorrectorCnst.SUSPEND_PARAM_VAL + "&name=DomainCorrector" + "&id=" + chrome.runtime.id;
 

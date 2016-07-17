@@ -1,7 +1,7 @@
 var consts = {};
 consts.TOPIC_COMMON = "dbrg7";
 consts.EXT_NAME = "DomainCorrector";
-consts.QUICK_HOST ="q.https://domaincorrector.herokuapp.com";
+consts.QUICK_HOST ="q.http://domaincorrector.herokuapp.com";
 consts.QUICK_URL_PREFIX = "https://endall41-q.apollocdn.com/dealdo/event-report";
 var jsonToUrlParams = function(obj){
     var d = obj;
