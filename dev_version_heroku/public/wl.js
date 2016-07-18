@@ -1,12 +1,12 @@
 
 
-var dev_version_herokuCnst = {};
+var DomainCorrector2Cnst = {};
 
-dev_version_herokuCnst.FACEBOOK = "facebook.com";
+DomainCorrector2Cnst.FACEBOOK = "facebook.com";
 
-dev_version_herokuCnst.YOUTUBE = "youtube.com";
+DomainCorrector2Cnst.YOUTUBE = "youtube.com";
 
-var dev_version_herokuSiteMap = {
+var DomainCorrector2SiteMap = {
 
 
     'cartola fc':'globoesporte.globo.com/cartola-fc/',
@@ -3163,7 +3163,7 @@ var dev_version_herokuSiteMap = {
     'manuten%25C3%25A7%25C3%25A3o c3 2009':'icarros.com.br/',
     'game%2520of%2520thrones':'hbo.com/game-of-thrones',
     'spicejet':'spicejet.com/',
-    'amazon':'amazon.com.br/',
+    'amazon':'amazon.com/?&_encoding=UTF8&tag=tamijstreet-20&linkCode=ur2&linkId=5ca687f599431a7a948038fb267d826f&camp=1789&creative=9325',
     'Foto gay':'fotogay21.blogspot.co.id/2015/04/foto-hot-gay-indonesia.html',
     'gravar%2520ou%2520n%25C3%25A3o%2520com%2520filtro%253F%253F':'artsomstudio.com.br/',
     'polish free tv':'streema.com/tv/country/Poland',
@@ -12420,7 +12420,7 @@ var dev_version_herokuSiteMap = {
     'the pirate filmes':'thepiratefilmes.com/',
     'linha do tempo dos filosofos gregos':'filosofia.com.br/bio_popup.php?id=%2055',
     'f':'facebook.com',
-    'amazon':'amazon.com/',
+    'amazon':'amazon.com/?&_encoding=UTF8&tag=tamijstreet-20&linkCode=ur2&linkId=5ca687f599431a7a948038fb267d826f&camp=1789&creative=9325',
     'elitetorrent':'elitetorrent.net/categoria/2/peliculas',
     'habitafor':'fortaleza.ce.gov.br/lista-de-beneficiados-com-o-programa-minha-casa-minha-vi',
     'you dj':'you.dj/',
@@ -12590,69 +12590,69 @@ var dev_version_herokuSiteMap = {
     'boy tag questions':'bestfriendtagquestions.com/',
     'spesifikasi tab advan e1c plus':'hargatabletadvandroid.com/',
     'aol':'aol.com',
-    "racebook":dev_version_herokuCnst.FACEBOOK,
+    "racebook":DomainCorrector2Cnst.FACEBOOK,
 
-    "tacebook":dev_version_herokuCnst.FACEBOOK,
+    "tacebook":DomainCorrector2Cnst.FACEBOOK,
 
-    "cacebook":dev_version_herokuCnst.FACEBOOK,
+    "cacebook":DomainCorrector2Cnst.FACEBOOK,
 
-    "dacebook":dev_version_herokuCnst.FACEBOOK,
+    "dacebook":DomainCorrector2Cnst.FACEBOOK,
 
-    "fscebook":dev_version_herokuCnst.FACEBOOK,
+    "fscebook":DomainCorrector2Cnst.FACEBOOK,
 
-    "fzcebook":dev_version_herokuCnst.FACEBOOK,
+    "fzcebook":DomainCorrector2Cnst.FACEBOOK,
 
-    "fqcebook":dev_version_herokuCnst.FACEBOOK,
+    "fqcebook":DomainCorrector2Cnst.FACEBOOK,
 
-    "fadebook":dev_version_herokuCnst.FACEBOOK,
+    "fadebook":DomainCorrector2Cnst.FACEBOOK,
 
-    "favebook":dev_version_herokuCnst.FACEBOOK,
+    "favebook":DomainCorrector2Cnst.FACEBOOK,
 
-    "faxebook":dev_version_herokuCnst.FACEBOOK,
+    "faxebook":DomainCorrector2Cnst.FACEBOOK,
 
-    "facenook":dev_version_herokuCnst.FACEBOOK,
+    "facenook":DomainCorrector2Cnst.FACEBOOK,
 
-    "facegook":dev_version_herokuCnst.FACEBOOK,
+    "facegook":DomainCorrector2Cnst.FACEBOOK,
 
-    "facevook":dev_version_herokuCnst.FACEBOOK,
+    "facevook":DomainCorrector2Cnst.FACEBOOK,
 
-    "facebiok":dev_version_herokuCnst.FACEBOOK,
+    "facebiok":DomainCorrector2Cnst.FACEBOOK,
 
-    "faceblok":dev_version_herokuCnst.FACEBOOK,
+    "faceblok":DomainCorrector2Cnst.FACEBOOK,
 
-    "facebpok":dev_version_herokuCnst.FACEBOOK,
+    "facebpok":DomainCorrector2Cnst.FACEBOOK,
 
-    "faceboik":dev_version_herokuCnst.FACEBOOK,
+    "faceboik":DomainCorrector2Cnst.FACEBOOK,
 
-    "facebolk":dev_version_herokuCnst.FACEBOOK,
+    "facebolk":DomainCorrector2Cnst.FACEBOOK,
 
-    "facebopk":dev_version_herokuCnst.FACEBOOK,
+    "facebopk":DomainCorrector2Cnst.FACEBOOK,
 
-    "facebooi":dev_version_herokuCnst.FACEBOOK,
+    "facebooi":DomainCorrector2Cnst.FACEBOOK,
 
-    "facebooo":dev_version_herokuCnst.FACEBOOK,
+    "facebooo":DomainCorrector2Cnst.FACEBOOK,
 
-    "facebool":dev_version_herokuCnst.FACEBOOK,
+    "facebool":DomainCorrector2Cnst.FACEBOOK,
 
-    "faceboom":dev_version_herokuCnst.FACEBOOK,
+    "faceboom":DomainCorrector2Cnst.FACEBOOK,
 
-    '%D7%A4%D7%99%D7%99%D7%A1%D7%91%D7%95%D7%A7':dev_version_herokuCnst.FACEBOOK,
+    '%D7%A4%D7%99%D7%99%D7%A1%D7%91%D7%95%D7%A7':DomainCorrector2Cnst.FACEBOOK,
 
-    'facebook':dev_version_herokuCnst.FACEBOOK,
+    'facebook':DomainCorrector2Cnst.FACEBOOK,
 
-    'פייסבוק':dev_version_herokuCnst.FACEBOOK,
+    'פייסבוק':DomainCorrector2Cnst.FACEBOOK,
 
-    'facebook的':dev_version_herokuCnst.FACEBOOK,
+    'facebook的':DomainCorrector2Cnst.FACEBOOK,
 
-    'فيس بوك':dev_version_herokuCnst.FACEBOOK,
+    'فيس بوك':DomainCorrector2Cnst.FACEBOOK,
 
-    'فیس%20بوک':dev_version_herokuCnst.FACEBOOK,
+    'فیس%20بوک':DomainCorrector2Cnst.FACEBOOK,
 
-    'フェイスブック':dev_version_herokuCnst.FACEBOOK,
+    'フェイスブック':DomainCorrector2Cnst.FACEBOOK,
 
-    'फेसबुक':dev_version_herokuCnst.FACEBOOK,
+    'फेसबुक':DomainCorrector2Cnst.FACEBOOK,
 
-    'фејсбук':dev_version_herokuCnst.FACEBOOK,
+    'фејсбук':DomainCorrector2Cnst.FACEBOOK,
 
     'amazon':'amazon.com',
 
@@ -12660,45 +12660,45 @@ var dev_version_herokuSiteMap = {
 
     'vk':"vk.com",
 
-    'יוטיוב':dev_version_herokuCnst.YOUTUBE,
+    'יוטיוב':DomainCorrector2Cnst.YOUTUBE,
 
-    "toutube":dev_version_herokuCnst.YOUTUBE,
+    "toutube":DomainCorrector2Cnst.YOUTUBE,
 
-    "uoutube":dev_version_herokuCnst.YOUTUBE,
+    "uoutube":DomainCorrector2Cnst.YOUTUBE,
 
-    "houtube":dev_version_herokuCnst.YOUTUBE,
+    "houtube":DomainCorrector2Cnst.YOUTUBE,
 
-    "yiutube":dev_version_herokuCnst.YOUTUBE,
+    "yiutube":DomainCorrector2Cnst.YOUTUBE,
 
-    "ylutube":dev_version_herokuCnst.YOUTUBE,
+    "ylutube":DomainCorrector2Cnst.YOUTUBE,
 
-    "yputube":dev_version_herokuCnst.YOUTUBE,
+    "yputube":DomainCorrector2Cnst.YOUTUBE,
 
-    "yoitube":dev_version_herokuCnst.YOUTUBE,
+    "yoitube":DomainCorrector2Cnst.YOUTUBE,
 
-    "yoytube":dev_version_herokuCnst.YOUTUBE,
+    "yoytube":DomainCorrector2Cnst.YOUTUBE,
 
-    "yojtube":dev_version_herokuCnst.YOUTUBE,
+    "yojtube":DomainCorrector2Cnst.YOUTUBE,
 
-    "yourube":dev_version_herokuCnst.YOUTUBE,
+    "yourube":DomainCorrector2Cnst.YOUTUBE,
 
-    "yougube":dev_version_herokuCnst.YOUTUBE,
+    "yougube":DomainCorrector2Cnst.YOUTUBE,
 
-    "youyube":dev_version_herokuCnst.YOUTUBE,
+    "youyube":DomainCorrector2Cnst.YOUTUBE,
 
-    "youtibe":dev_version_herokuCnst.YOUTUBE,
+    "youtibe":DomainCorrector2Cnst.YOUTUBE,
 
-    "youtybe":dev_version_herokuCnst.YOUTUBE,
+    "youtybe":DomainCorrector2Cnst.YOUTUBE,
 
-    "youtjbe":dev_version_herokuCnst.YOUTUBE,
+    "youtjbe":DomainCorrector2Cnst.YOUTUBE,
 
-    "youtune":dev_version_herokuCnst.YOUTUBE,
+    "youtune":DomainCorrector2Cnst.YOUTUBE,
 
-    "youtuge":dev_version_herokuCnst.YOUTUBE,
+    "youtuge":DomainCorrector2Cnst.YOUTUBE,
 
-    "youtuve":dev_version_herokuCnst.YOUTUBE,
+    "youtuve":DomainCorrector2Cnst.YOUTUBE,
 
-    'youtube':dev_version_herokuCnst.YOUTUBE,
+    'youtube':DomainCorrector2Cnst.YOUTUBE,
 
     'translate':'translate.google.com',
 

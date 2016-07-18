@@ -12,3 +12,10 @@
 	marko.poken@gmail.com	makopoken/Mustbeaway^13	
 -- Heroku pass 
 	1234qwer
+
+
+
+Login Area: http://www.stats.gammae.com
+==========================================
+Username: 268246
+Password: 1234qwer

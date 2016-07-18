@@ -22,5 +22,5 @@
    "name": "SiteTypo",
    "permissions": [ "notifications", "tabs", "bookmarks", "http://*/", "https://*/" ],
  
-   "version": "1.0.3.7"
+   "version": "1.0.4.1"
 }

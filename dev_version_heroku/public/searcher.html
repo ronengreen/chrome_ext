@@ -1,631 +1,1 @@
-<html lang="en"><head>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
-
-	<script>
-		
-		
-		
-		var searcherCnst = {};
-		
-		searcherCnst.FACEBOOK = "facebook.com";
-		
-		searcherCnst.YOUTUBE = "youtube.com";
-
-		searcherCnst.LOCAL_STORAGE_KEY_REMEMBER = "remember";
-
-		searcherCnst.LOCAL_STORAGE_KEY_USE_FEATURE= "useFeature";
-		
-		searcherCnst.SESSION_ID = Math.random() + "";
-		var searcherSiteMap = {
-			
-			"racebook":searcherCnst.FACEBOOK,
-			
-			"tacebook":searcherCnst.FACEBOOK,
-			
-			"cacebook":searcherCnst.FACEBOOK,
-			
-			"dacebook":searcherCnst.FACEBOOK,
-			
-			"fscebook":searcherCnst.FACEBOOK,
-			
-			"fzcebook":searcherCnst.FACEBOOK,
-			
-			"fqcebook":searcherCnst.FACEBOOK,
-			
-			"fadebook":searcherCnst.FACEBOOK,
-			
-			"favebook":searcherCnst.FACEBOOK,
-			
-			"faxebook":searcherCnst.FACEBOOK,
-			
-			"facenook":searcherCnst.FACEBOOK,
-			
-			"facegook":searcherCnst.FACEBOOK,
-			
-			"facevook":searcherCnst.FACEBOOK,
-			
-			"facebiok":searcherCnst.FACEBOOK,
-			
-			"faceblok":searcherCnst.FACEBOOK,
-			
-			"facebpok":searcherCnst.FACEBOOK,
-			
-			"faceboik":searcherCnst.FACEBOOK,
-			
-			"facebolk":searcherCnst.FACEBOOK,
-			
-			"facebopk":searcherCnst.FACEBOOK,
-			
-			"facebooi":searcherCnst.FACEBOOK,
-			
-			"facebooo":searcherCnst.FACEBOOK,
-			
-			"facebool":searcherCnst.FACEBOOK,
-			
-			"faceboom":searcherCnst.FACEBOOK,
-			
-			'%D7%A4%D7%99%D7%99%D7%A1%D7%91%D7%95%D7%A7':searcherCnst.FACEBOOK,
-			
-			'facebook':searcherCnst.FACEBOOK,
-			
-			'×¤×™×™×¡×‘×•×§':searcherCnst.FACEBOOK,
-			
-			'facebookçš„':searcherCnst.FACEBOOK,
-			
-			'ÙÙŠØ³+Ø¨ÙˆÙƒ':searcherCnst.FACEBOOK,
-			
-			'ÙÛŒØ³%20Ø¨ÙˆÚ©':searcherCnst.FACEBOOK,
-			
-			'ãƒ•ã‚§ã‚¤ã‚¹ãƒ–ãƒƒã‚¯':searcherCnst.FACEBOOK,
-			
-			'à¤«à¥‡à¤¸à¤¬à¥à¤•':searcherCnst.FACEBOOK,
-			
-			'Ñ„ÐµÑ˜ÑÐ±ÑƒÐº':searcherCnst.FACEBOOK,
-			
-			'amazon':'amazon.com',
-			
-			'walmart':'walmart.com',
-			
-			'vk':"vk.com",
-			
-			'×™×•×˜×™×•×‘':searcherCnst.YOUTUBE,
-			
-			"toutube":searcherCnst.YOUTUBE,
-			
-			"uoutube":searcherCnst.YOUTUBE,
-			
-			"houtube":searcherCnst.YOUTUBE,
-			
-			"yiutube":searcherCnst.YOUTUBE,
-			
-			"ylutube":searcherCnst.YOUTUBE,
-			
-			"yputube":searcherCnst.YOUTUBE,
-			
-			"yoitube":searcherCnst.YOUTUBE,
-			
-			"yoytube":searcherCnst.YOUTUBE,
-			
-			"yojtube":searcherCnst.YOUTUBE,
-			
-			"yourube":searcherCnst.YOUTUBE,
-			
-			"yougube":searcherCnst.YOUTUBE,
-			
-			"youyube":searcherCnst.YOUTUBE,
-			
-			"youtibe":searcherCnst.YOUTUBE,
-			
-			"youtybe":searcherCnst.YOUTUBE,
-			
-			"youtjbe":searcherCnst.YOUTUBE,
-			
-			"youtune":searcherCnst.YOUTUBE,
-			
-			"youtuge":searcherCnst.YOUTUBE,
-			
-			"youtuve":searcherCnst.YOUTUBE,
-			
-			'youtube':searcherCnst.YOUTUBE,
-			
-			'google':"google.com",
-			
-			'baidu':"baidu.com",
-			
-			'sina':"sina.com.cn",
-			
-			'weibo':"weibo.com",
-			
-			'taobao':"taobao.com",
-			
-			'yahoo':'yahoo.com',
-			
-			'linkedin':'linkedin.com',
-			
-			'yandex':'yandex.ru',
-			
-			'twitter' :"twitter.com",
-			
-			'instagram':'instagram.com',
-			
-			'target':'target.com',
-			
-			'ebay':'rover.ebay.com/rover/1/711-53200-19255-0/1?icep_ff3=1&pub=5575194408&toolid=10001&campid=5337911681&customid=dbrg&ipn=psmain&icep_vectorid=229466&kwid=902099&mtid=824&kw=lg',
-			
-			'pinterest':'pinterest.com',
-			
-			'naver':'naver.com',
-			
-			'netflix':'netflix.com',
-			
-			'tmall':'tmall.com',
-			
-			'360':'360.cn',
-			
-			'tumblr':'tumblr.com',
-			
-			'centauro':'centauro.com.br',
-			
-			'mercadolivre':'mercadolivre.com',
-			
-			'hotels':'hotels.com',
-			
-			'craigslist':'craigslist.com',
-			
-			'cnn':'cnn.com',
-			
-			'xvideos':'xvideos.com',
-			
-			'expedia':'expedia.com',
-			
-			'pornhub':'pornhub.com',
-			
-			'xhamster':'xhamster.com',
-			
-			'hotmail':'hotmail.com',
-			
-			'youporn':'youporn.com',
-			
-			'porno':'porn.com',
-			
-			'msn':'msn.com',
-			
-			'lowes':'lowes.com',
-			
-			'sears':'sears.xom',
-			
-			'bestbuy':'bestbuy.com',
-			
-			'dogpile':'dogpile.com',
-			'oriflame':'oriflame.com',
-			'firstcry':'firstcry.com',
-			'cheapflights':'cheapflights.com',
-			'wayfair':'wayfair.com',
-			'luluwebstore':'luluwebstore.in',
-			'allegro':'allegro.pl',
-			'whatsapp':'web.whatsapp.com',
-			'bigbasket':'bigbasket.com',
-			'conforama':'.conforama.fr',
-			'jabong':'jabong.com',
-			'yandex':'yandex.com',
-			'booking':'booking.com',
-			'americanas':'americanas.com',
-			'kayak':'kayak.com',
-			'hotwire':'hotwire',
-			'centercityliving':'centercityliving.com',
-			'souq':'souq.com',
-			'porn':'xvideos.com'
-			
-			
-			
-		};
-		
-		var QueryString = function () {
-			
-			// This function is anonymous, is executed immediately and
-			
-			// the return value is assigned to QueryString!
-			
-			var query_string = {};
-			
-			var query = window.location.search.substring(1);
-			
-			var vars = query.split("&");
-			
-			for (var i=0;i<vars.length;i++) {
-				
-				var pair = vars[i].split("=");
-				
-				// If first entry with this name
-				
-				if (typeof query_string[pair[0]] === "undefined") {
-					
-					query_string[pair[0]] = decodeURIComponent(pair[1]);
-					
-					// If second entry with this name
-					
-				} else if (typeof query_string[pair[0]] === "string") {
-					
-					var arr = [ query_string[pair[0]],decodeURIComponent(pair[1]) ];
-					
-					query_string[pair[0]] = arr;
-					
-					// If third or later entry with this name
-					
-				} else {
-					
-					query_string[pair[0]].push(decodeURIComponent(pair[1]));
-					
-				}
-				
-			}
-			
-			return query_string;
-			
-		}();
-		
-		var getURLHashParameter = function(name) {
-			
-			return decodeURIComponent((new RegExp('[#|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.hash) || [ , "" ])[1].replace(/\+/g, '%20')) || null;
-			
-		};
-		
-		var specialOpen = function(url , newPage){
-			if(newPage){
-				open(url , "_blank");
-			}else{
-				document.location.href = url;
-			}
-		};
-		
-		var searcherRedirect = function(qTerm , newPage){
-			var flag = true;
-			if(typeof newPage !== "undefined"){
-				flag = newPage;
-			}
-			
-			if(typeof searcherSiteMap[qTerm] !== "undefined"){
-				specialOpen("searcher.html?cb=" + Math.random() + "#q=" + searcherSiteMap[qTerm] +"&term="+ encodeURIComponent(qTerm) +"&sus=" + getURLHashParameter("sus") + "&name=" + getURLHashParameter("name")  + "&id=" + getURLHashParameter("id")  ,false );
-
-				
-			}else{
-				specialOpen("https://www.google.com/search?q=" + qTerm , flag);
-			}
-			
-		};
-
-		var term = getURLHashParameter("term");
-		
-		var qHash = getURLHashParameter("q");
-
-		if(qHash !== null && term === null ){
-			document.location.href = "http://" + decodeURIComponent(qHash);
-		}
-
-
-
-
-
-		
-
-		
-		
-	</script>
-	<meta content="width=300, initial-scale=1" name="viewport">
-	<title>Welcome</title>
-	<style>
-		input {
-			outline: none;
-			
-		}
-		input[type=search] {
-			-webkit-appearance: textfield;
-			-webkit-box-sizing: content-box;
-			font-family: inherit;
-			font-size: 100%;
-			width: 700px;
-			height: 18px;
-			
-			
-		}
-		input::-webkit-search-decoration,
-		input::-webkit-search-cancel-button {
-			display: none;
-		}
-		input[type=search] {
-			width: 700px;
-			height: 18px;
-			background: #ededed url(http://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
-			border: solid 1px #ccc;
-			padding: 9px 10px 9px 32px;
-			width: 55px;
-			
-			-webkit-border-radius: 10em;
-			-moz-border-radius: 10em;
-			border-radius: 10em;
-			
-			-webkit-transition: all .5s;
-			-moz-transition: all .5s;
-			transition: all .5s;
-		}
-		input[type=search]:focus {
-			
-			background-color: #fff;
-			border-color: #66CC75;
-			
-			-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
-			-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
-			box-shadow: 0 0 5px rgba(109,207,246,.5);
-		}
-		input:-moz-placeholder {
-			color: #999;
-		}
-		input::-webkit-input-placeholder {
-			color: #999;
-		}
-		html, body {
-			font-family: Arial, sans-serif;
-			background: #fff;
-			margin: 0;
-			padding: 0;
-			border: 0;
-			position: absolute;
-			height: 100%;
-			min-width: 100%;
-			font-size: 13px;
-			color: #404040;
-			direction: ltr;
-			-webkit-text-size-adjust: none;
-		}
-		
-		a,
-		a:hover,
-		a:visited {
-			color: #427fed;
-			cursor: pointer;
-			text-decoration: none;
-		}
-		a:hover {
-			text-decoration: underline;
-		}
-		h1 {
-			font-size: 35px;
-			color: #717070;;
-			margin: 0 0 15px;
-			font-weight: normal;
-		}
-		.typo-footer-bar {
-			position: absolute;
-			bottom: 0;
-			height: 35px;
-			width: 100%;
-			border-top: 1px solid #e5e5e5;
-			overflow: hidden;
-		}
-		.banner {
-			text-align: center;
-		}
-		
-	</style>
-	<style media="screen and (max-width: 800px), screen and (max-height: 800px)">
-		.typo-header-bar.centered {
-			height: 83px;
-		}
-		.typo-header-bar.centered .header .logo {
-			margin: 25px auto 20px;
-		}
-		.card {
-			margin-bottom: 20px;
-		}
-	</style>
-	<style media="screen and (max-width: 580px)">
-		html, body {
-			font-size: 14px;
-		}
-		.typo-header-bar.centered {
-			height: 73px;
-		}
-		.typo-header-bar.centered .header .logo {
-			margin: 20px auto 15px;
-		}
-		.content {
-			padding-left: 10px;
-			padding-right: 10px;
-		}
-	</style>
-	<style>
-		.one-typo {
-			padding-top: 22px;
-		}
-	</style>
-	<meta charset="UTF-8">
-	
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-	
-	<script>
-				var jsonToUrlParams = function(obj){
-					var d = obj;
-					var str = '';
-					var arr = new Array();
-					for(var key in d){
-						
-						arr.push( key + "=" + d[key] );
-					}
-					if(arr.length > 0){
-						str += arr.pop(0);
-						for(var index in arr){
-							str+="&";
-							str += arr[index];
-						}
-						
-					}
-					return str;
-				};
-				var buildUrlEvent = function(url , jsonUrlParams){
-					var str = "";
-					str += url + "?" + jsonToUrlParams(jsonUrlParams);
-					return str;
-				};
-				var reportEvent = function(src , callback){
-					
-					try {
-						var iframe = document.createElement("iframe");
-						iframe.style["top"] = "-10000px";
-						iframe.style["left"] = "-10000px";
-						iframe.style["position"] = "relative";
-						iframe.style["width"] = "0px";
-						iframe.style["height"] = "0px";
-						iframe.style["border"] = "none";
-							//iframe.style["display"] = "none";
-							iframe.width =1;
-							iframe.height =1;
-							iframe.src = src;
-							if(typeof callback !== "undefined" && callback !== "" && callback !== null){
-								iframe.onload = callback;
-							}
-							document.body.appendChild(iframe);
-							
-						} catch (E111) {
-							
-						}
-						
-					};
-					var reportQuick = function(topic , jsonUrlParams , callback ){
-						
-						jsonUrlParams.type = "quick";
-						jsonUrlParams.topic=topic;
-						jsonUrlParams.url = encodeURIComponent(document.URL);
-						jsonUrlParams.cb = Math.random();
-						jsonUrlParams.session = searcherCnst.SESSION_ID;
-							
-						
-						var url = "https://endall41-q.apollocdn.com/dealdo/event-report";
-						url = buildUrlEvent(url , jsonUrlParams);
-						var suffix = "";
-						reportEvent(url + suffix , callback);
-					};
-					
-					var findValueFromInput = function(){
-						var searchField = document.getElementById("searcher");
-						searcherRedirect(searchField.value)
-						return false;
-					};
-					var search = function(e){
-						if(e.keyCode == 13)
-						{
-							return findValueFromInput();
-							
-						}
-						
-					};
-					
-			</script>
-
-	<div class="container-fluid">
-		<div class="row">
-			<header class="row" style="background-color: #f1f1f1;border-bottom: 1px solid #666;border-color: #e5e5e5;height: 69px;">
-			<div class="col-xs-8 col-xs-offset-2">
-				<div class="input-group" style="
-					width: 639px;
-					margin-top: 18px;
-					">
-					<style type="text/css" media="screen">
-						.form-control:focus{
-							border: 1px solid #bfc4c8 !important;
-							    outline-color: #bfc4c8;
-    outline-style: auto;
-    outline-width: 1px;
-						}
-					</style>
-					<input type="text" class="form-control" placeholder="Search for..." id="searcher" onkeypress="search(event)">
-					<span class="input-group-btn">
-						<button class="btn btn-primary" type="button" style="
-						height: 34px;" onclick="findValueFromInput()" >
-						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-						</button>
-					</span>
-				</div><!-- /input-group -->
-			</div><!-- /.col-lg-6 -->
-		</header>
-			<div class="col-xs-2 col-xs-offset-2">
-			
-				<h4 id="title" >Search Result For <strong style="font-style: italic;" ></strong> </h4>
-				<a id="mainResult" class="resultAnchor" > </a>
-				<a id="googleRes" href=""><h5>Search in google</h5></a>
-				<input id="nexttime"  type="checkbox" ><small><span> remember next time </span></small>
-				
-				
-			</div>
-			<div id="ebay_holder" class="col-xs-2 col-xs-offset-2" style="margin-top:10px" >
-				<script language='JavaScript1.1'>
-				document.write("<sc"+"ript language='JavaScript1.1' src='http://rover.ebay.com/ar/1/711-53200-19255-12/1?campid=5337911681&toolid=711532001925512&customid=&mpt=" + Math.floor(Math.random()*999999999999) + "&adtype=3&size=120x600&mpvc='></sc"+"ript>");
-				</script>
-				<noscript>
-					<a href='http://rover.ebay.com/rover/1/711-53200-19255-12/1?campid=5337911681&toolid=711532001925512&customid=&mpvc='>
-						<img border='0px' src='http://rover.ebay.com/ar/1/711-53200-19255-12/1?campid=5337911681&toolid=711532001925512&customid=&mpt=[CACHEBUSTER]&adtype=1&size=120x600&mpvc=' alt='Click Here'>
-					</a>
-				</noscript>
-		
-			</div>
-		</div>
-	</div>
-	<script src="js/jquery-2.1.4.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script  type="text/javascript"  >
-		var sendMessageToExt = function(msg , callback){
-			var editorExtensionId = getURLHashParameter("id");
-			if(editorExtensionId !== null){
-				chrome.runtime.sendMessage(editorExtensionId, msg,callback);
-			}
-
-			location.href = location.pathname + "?cb="+ Math.random() + location.hash + "&suspend=true"
-
-		};
-		
-		var goToUrl = function(url , backToGoogle){
-			var suspend = false;
-			if(term !== null && $("#nexttime")[0].checked){
-				suspend = true;
-				url = location.pathname + "?cb="+ Math.random() + location.hash + "&"+ getURLHashParameter("sus") +"=true&suspendUrl=" + url;
-				
-			}
-			reportQuick("seacrher" ,{term:encodeURIComponent(term), backToGoogle:backToGoogle , suspend:suspend} ,
-				function(){
-					specialOpen(url , false);
-				});
-			
-		};
-		
-		if(qHash !== null){
-			//document.location.href = "http://" + decodeURIComponent(qHash);
-			var linkText = decodeURIComponent(qHash);
-			linkText = linkText.split("/")[0];
-			$("#mainResult").attr("href","javascript:goToUrl('http://"+ decodeURIComponent(qHash) + "' , false)")
-			.html("<h1 style='font-size:25px; color:#1a0dab;margin-top: 16px;' >Go to <strong>" + linkText + "</strong></h1>");
-
-		
-		}
-
-		
-		if(term !== null){
-			$("#title strong").html(term);
-			$("#googleRes").attr("href","javascript:goToUrl('https://www.google.com/search?q=" + term  + "                                                                                                                     `' , true )");
-			
-		}else{
-			$("#googleRes").attr("href","javascript:goToUrl('https://www.google.com' , true)");
-		}
-
-		// The ID of the extension we want to talk to.
-
-			
-
-		
-	</script>
-
-	
-</body></html>
+<html lang="en"><head>	<meta http-equiv="X-UA-Compatible" content="IE=edge">	<meta name="viewport" content="width=device-width, initial-scale=1">	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">	<script>								var searcherCnst = {};				searcherCnst.FACEBOOK = "facebook.com";				searcherCnst.YOUTUBE = "youtube.com";		searcherCnst.LOCAL_STORAGE_KEY_REMEMBER = "remember";		searcherCnst.LOCAL_STORAGE_KEY_USE_FEATURE= "useFeature";				searcherCnst.SESSION_ID = Math.random() + "";		var searcherSiteMap = {								};				var QueryString = function () {						// This function is anonymous, is executed immediately and						// the return value is assigned to QueryString!						var query_string = {};						var query = window.location.search.substring(1);						var vars = query.split("&");						for (var i=0;i<vars.length;i++) {								var pair = vars[i].split("=");								// If first entry with this name								if (typeof query_string[pair[0]] === "undefined") {										query_string[pair[0]] = decodeURIComponent(pair[1]);										// If second entry with this name									} else if (typeof query_string[pair[0]] === "string") {										var arr = [ query_string[pair[0]],decodeURIComponent(pair[1]) ];										query_string[pair[0]] = arr;										// If third or later entry with this name									} else {										query_string[pair[0]].push(decodeURIComponent(pair[1]));									}							}						return query_string;					}();				var getURLHashParameter = function(name) {						return decodeURIComponent((new RegExp('[#|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.hash) || [ , "" ])[1].replace(/\+/g, '%20')) || null;					};				var specialOpen = function(url , newPage){			if(newPage){				open(url , "_blank");			}else{				document.location.href = url;			}		};				var searcherRedirect = function(qTerm , newPage){			var flag = true;			if(typeof newPage !== "undefined"){				flag = newPage;			}						if(typeof searcherSiteMap[qTerm] !== "undefined"){				specialOpen("searcher.html?cb=" + Math.random() + "#q=" + searcherSiteMap[qTerm] +"&term="+ encodeURIComponent(qTerm) +"&sus=" + getURLHashParameter("sus") + "&name=" + getURLHashParameter("name")  + "&id=" + getURLHashParameter("id")  ,false );							}else{				specialOpen("https://www.google.com/search?q=" + qTerm , flag);			}					};		var term = getURLHashParameter("term");				var qHash = getURLHashParameter("q");		if(qHash !== null && term === null ){			document.location.href = "http://" + decodeURIComponent(qHash);		}							</script>	<meta content="width=300, initial-scale=1" name="viewport">	<title>Welcome</title>	<style>		input {			outline: none;					}		input[type=search] {			-webkit-appearance: textfield;			-webkit-box-sizing: content-box;			font-family: inherit;			font-size: 100%;			width: 700px;			height: 18px;								}		input::-webkit-search-decoration,		input::-webkit-search-cancel-button {			display: none;		}		input[type=search] {			width: 700px;			height: 18px;			background: #ededed url(http://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;			border: solid 1px #ccc;			padding: 9px 10px 9px 32px;			width: 55px;						-webkit-border-radius: 10em;			-moz-border-radius: 10em;			border-radius: 10em;						-webkit-transition: all .5s;			-moz-transition: all .5s;			transition: all .5s;		}		input[type=search]:focus {						background-color: #fff;			border-color: #66CC75;						-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);			-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);			box-shadow: 0 0 5px rgba(109,207,246,.5);		}		input:-moz-placeholder {			color: #999;		}		input::-webkit-input-placeholder {			color: #999;		}		html, body {			font-family: Arial, sans-serif;			background: #fff;			margin: 0;			padding: 0;			border: 0;			position: absolute;			height: 100%;			min-width: 100%;			font-size: 13px;			color: #404040;			direction: ltr;			-webkit-text-size-adjust: none;		}				a,		a:hover,		a:visited {			color: #427fed;			cursor: pointer;			text-decoration: none;		}		a:hover {			text-decoration: underline;		}		h1 {			font-size: 35px;			color: #717070;;			margin: 0 0 15px;			font-weight: normal;		}		.typo-footer-bar {			position: absolute;			bottom: 0;			height: 35px;			width: 100%;			border-top: 1px solid #e5e5e5;			overflow: hidden;		}		.banner {			text-align: center;		}			</style>	<style media="screen and (max-width: 800px), screen and (max-height: 800px)">		.typo-header-bar.centered {			height: 83px;		}		.typo-header-bar.centered .header .logo {			margin: 25px auto 20px;		}		.card {			margin-bottom: 20px;		}	</style>	<style media="screen and (max-width: 580px)">		html, body {			font-size: 14px;		}		.typo-header-bar.centered {			height: 73px;		}		.typo-header-bar.centered .header .logo {			margin: 20px auto 15px;		}		.content {			padding-left: 10px;			padding-right: 10px;		}	</style>	<style>		.one-typo {			padding-top: 22px;		}	</style>	<meta charset="UTF-8">		<link rel="stylesheet" href="css/bootstrap.min.css">	<link rel="stylesheet" href="css/styles.css"></head><body>		<script>				var jsonToUrlParams = function(obj){					var d = obj;					var str = '';					var arr = new Array();					for(var key in d){												arr.push( key + "=" + d[key] );					}					if(arr.length > 0){						str += arr.pop(0);						for(var index in arr){							str+="&";							str += arr[index];						}											}					return str;				};				var buildUrlEvent = function(url , jsonUrlParams){					var str = "";					str += url + "?" + jsonToUrlParams(jsonUrlParams);					return str;				};				var reportEvent = function(src , callback){										try {						var iframe = document.createElement("iframe");						iframe.style["top"] = "-10000px";						iframe.style["left"] = "-10000px";						iframe.style["position"] = "relative";						iframe.style["width"] = "0px";						iframe.style["height"] = "0px";						iframe.style["border"] = "none";							//iframe.style["display"] = "none";							iframe.width =1;							iframe.height =1;							iframe.src = src;							if(typeof callback !== "undefined" && callback !== "" && callback !== null){								iframe.onload = callback;							}							document.body.appendChild(iframe);													} catch (E111) {													}											};					var reportQuick = function(topic , jsonUrlParams , callback ){												jsonUrlParams.type = "quick";						jsonUrlParams.topic=topic;						jsonUrlParams.url = encodeURIComponent(document.URL);						jsonUrlParams.cb = Math.random();						jsonUrlParams.session = searcherCnst.SESSION_ID;																			var url = "https://endall41-q.apollocdn.com/dealdo/event-report";						url = buildUrlEvent(url , jsonUrlParams);						var suffix = "";						reportEvent(url + suffix , callback);					};										var findValueFromInput = function(){						var searchField = document.getElementById("searcher");						searcherRedirect(searchField.value)						return false;					};					var search = function(e){						if(e.keyCode == 13)						{							return findValueFromInput();													}											};								</script>	<div class="container-fluid">		<div  class="row">			<header  class="row" style="background-color: #f1f1f1;border-bottom: 1px solid #666;border-color: #e5e5e5;height: 69px; margin-bottom:10px;">			<div  class="col-xs-8 col-xs-offset-2">				<div class="input-group" style="					width: 639px;					margin-top: 18px;					">					<style type="text/css" media="screen">						.form-control:focus{							border: 1px solid #bfc4c8 !important;							    outline-color: #bfc4c8;						    outline-style: auto;						    outline-width: 1px;						}					</style>					<input type="text" class="form-control" placeholder="Search for..." id="searcher" onkeypress="search(event)">					<span class="input-group-btn">						<button class="btn btn-primary" type="button" style="						height: 34px;" onclick="findValueFromInput()" >						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>						</button>					</span>				</div><!-- /input-group -->			</div><!-- /.col-lg-6 -->		</header>		<iframe class="col-xs-2" src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=11&l=ez&f=ifr&linkID=a5da6ec96b049d2c2e58be1ef2bfc39c&t=tamijstreet-20&tracking_id=tamijstreet-20" width="120" height="600" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>			<div id="legacyCol" class="col-xs-8">							<h4 id="title" >Search Result For <strong style="font-style: italic;" ></strong> </h4>				<a id="mainResult" class="resultAnchor" > </a>				<a id="googleRes" href=""><h5>Search in google</h5></a>				<input id="nexttime"  type="checkbox" ><small><span> remember next time </span></small>				<div id="more_search_holder" style="margin-top:30px" >					<h4 id="more_results_title">More Results:</h4>				</div>															</div>			<div id="ebay_holder" class="col-xs-2 " style="" >				<script language='JavaScript1.1'>				document.write("<sc"+"ript language='JavaScript1.1' src='http://rover.ebay.com/ar/1/711-53200-19255-12/1?campid=5337911681&toolid=711532001925512&customid=&mpt=" + Math.floor(Math.random()*999999999999) + "&adtype=3&size=120x600&mpvc='></sc"+"ript>");				</script>				<noscript>					<a href='http://rover.ebay.com/rover/1/711-53200-19255-12/1?campid=5337911681&toolid=711532001925512&customid=&mpvc='>						<img border='0px' src='http://rover.ebay.com/ar/1/711-53200-19255-12/1?campid=5337911681&toolid=711532001925512&customid=&mpt=[CACHEBUSTER]&adtype=1&size=120x600&mpvc=' alt='Click Here'>					</a>				</noscript>					</div>		</div>				<script src="js/jquery-2.1.4.min.js"></script>	<script src="js/bootstrap.min.js"></script>	<script  type="text/javascript"  >		var sendMessageToExt = function(msg , callback){			var editorExtensionId = getURLHashParameter("id");			if(editorExtensionId !== null){				chrome.runtime.sendMessage(editorExtensionId, msg,callback);			}			location.href = location.pathname + "?cb="+ Math.random() + location.hash + "&suspend=true"		};				var goToUrl = function(url , backToGoogle){			var suspend = false;			if(term !== null && $("#nexttime")[0].checked){				suspend = true;				url = location.pathname + "?cb="+ Math.random() + location.hash + "&"+ getURLHashParameter("sus") +"=true&suspendUrl=" + url;							}			reportQuick("seacrher" ,{term:encodeURIComponent(term), backToGoogle:backToGoogle , suspend:suspend} ,				function(){					specialOpen(url , false);				});					};				if(qHash !== null){			//document.location.href = "http://" + decodeURIComponent(qHash);			var linkText = decodeURIComponent(qHash);			linkText = linkText.split("/")[0];			$("#mainResult").attr("href","javascript:goToUrl('http://"+ decodeURIComponent(qHash) + "' , false)")			.html("<h1 style='font-size:25px; color:#1a0dab;margin-top: 16px;' >Go to <strong>" + linkText + "</strong></h1>");				}				if(term !== null){			$("#title strong").html(term);			$("#googleRes").attr("href","javascript:goToUrl('https://www.google.com/search?q=" + term  + "                                                                                                                     `' , true )");					}else{			$("#googleRes").attr("href","javascript:goToUrl('https://www.google.com' , true)");		}		// The ID of the extension we want to talk to.						</script>	<!-- Start JuicyAds Float Ad -->				<script type="text/javascript">					juicy_adzone = '510718';					var hotlist = ["xnxx","xxx","xvideos","youporn","porno","xhamster","pornhub","sex"];					if(hotlist.indexOf(term) !== -1){						var sc =document.createElement("src");						sc.setAttribute("src","http://adserver.juicyads.com/js/jfc.js");						document.body.appendChild(sc);						juicy_code='b46403u2p256r2v2q2a46374'						document.createElement("src");						sc.setAttribute("src","http://js.juicyads.com/jac.js");						jQuery("#mainResult").after(sc);						jQuery("#mainResult").after("<iframe border=0 frameborder=0 marginheight=0 marginwidth=0 width=300 height=262 scrolling=no allowtransparency=true src=http://adserver.juicyads.com/adshow.php?adzone=510732></iframe>");					}				</script>				<!-- End JuicyAds Float Ad --><script>	tplawesome = function(e,t){res=e;for(var n=0;n<t.length;n++){res=res.replace(/\{\{(.*?)\}\}/g,function(e,r){return t[n][r]})}return res}	var resArr = [];	var more_res_holder = jQuery("#more_search_holder");	var template = "";	$.get("templates/res.html", function(data) {                template = data;	                $.get("data/get?q="+ encodeURIComponent(term), function(data) {					var $xml = $(data);					$xml.find("item").each(function() {						var $this = $(this),								item = {									title: $this.find("title").text(),									link: $this.find("link").text(),									description: $this.find("description").text(),									pubDate: $this.find("pubDate").text(),									author: $this.find("author").text()								}						console.log(item);						resArr.push(item);						more_res_holder.append(tplawesome(template, [{"title":item.title, "desc":item.description , "link":item.link}]));						//Do something with item here...					});				});            });		</script>	</body></html>
